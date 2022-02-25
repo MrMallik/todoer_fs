@@ -7,7 +7,7 @@ const Remove = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        const url = 'http://localhost:9191/deleteTask/' + id;
+        const url = 'https://my-todoer.herokuapp.com/deleteTask/' + id;
 
         fetch(url, {
                 method: 'DELETE',

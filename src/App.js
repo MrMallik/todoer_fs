@@ -9,7 +9,7 @@ function App() {
 
   const getAllTasks = () => {
 
-    const url = 'http://localhost:9191/getAllTasks'
+    const url = 'https://my-todoer.herokuapp.com/getAllTasks'
 
     fetch(url)
     .then(res => {

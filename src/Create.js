@@ -13,7 +13,7 @@ const Create = () => {
 
         const task = {id, title, description};
 
-        const url = 'http://localhost:9191/addTask'
+        const url = 'https://my-todoer.herokuapp.com/addTask'
 
         fetch(url, {
             method: "POST",
